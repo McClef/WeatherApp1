@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather 3</title>
+</head>
+<body>
+    
+  <header>
+    <nav>
+      <img src="images/logo.svg" alt="">
+      <h1>FYLO WEATHER UPDATE</h1>
+      <img src="images/icon-upload.svg" alt="">
+    </nav>
+  </header> 
+  <section>
+              <!-- Trigger/Open The Modal -->
+      <button id="myBtn">Click to check for location weather update</button>
+
+              <!--The Modal -->
+          <div id="myModal" class="modal">
+              <!--Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                       <span ></span> 
+                      <h2>Fylo Weather</h2>
+                    </div>
+                    <div class="modal-body">
+                      <input type="text" placeholder="Enter City" class="search-box">
+                      <button class="close">Search City</button>
+                      <br>
+                      <br>
+                    
+                    </div>
+                    <!-- <div class="modal-footer">
+                        <h3>Modal Footer</h3>
+                    </div> -->
+                </div>
+          </div>
+<br>
+<br>
+          <div class="container">
+
+            <div class="app-title">
+              <p>Weather</p>
+            </div>
+            <div class="notification"></div>
+            <div class="weather-container"></div>
+              <div class="weather-icon">
+                <img src="images/sun.png" alt="icon" style="width: 100px">
+              </div>
+              <div class="temperature-value">
+                <p>-<sup>0</sup><span>C</span></p>
+              </div>
+              <div class="temperature-description">
+                <p>-</p>
+              </div>
+              <div class="location">
+                <p>-</p>
+              </div>
+            
+          </div>
+  </section>
+
+  
+  <footer>
+    Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+  </footer>
+
+  <script src="weather.js"></script>
+</body>
+</html>
+
+
+
